@@ -1,2 +1,15 @@
 # Include your custom HAL commands here
 # This file will not be overwritten when you run PNCconf again
+
+
+loadrt or2 count=1
+
+addf or2.0   servo-thread
+
+net probe-in <= [HMOT](CARD0).inm.00.input-05
+net length-in <= [HMOT](CARD0).inm.00.input-04-not
+
+net probe-in => or2.0.in0
+net length-in => or2.0.in1
+net probe-or-length <= or2.0.out => motion.probe-input
+
