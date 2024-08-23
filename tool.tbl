@@ -1,10 +1,11 @@
 T1   P1   D+3.000000 Z-20.699300 ;3mm end mill sample tool
 T2   P4   D+1.500000 Z+0.100000 ;1.5mm  end mill sample tool
-T3   P3   D+5.000000 Z+1.273000 ;5mm tap drill sample tool
+T3   P3   D+6.000000 Z-12.441000 ;6mm carbide ball end
 T4   P2   D+16.000000 Z+10.000000 ;16 mm sample tool
 T5   P5   D+25.000000 Z+25.000000 ;25mm er sample tool
-T10  P10  D+20.000000 ;20mm face mill
+T10  P10  D+20.000000 Z-10.366208 ;20mm face mill
 T11  P11  D+10.000000 ;bap
-T12  P12  D+8.000000 ;8mm hss endmil
+T12  P12  D+8.000000 Z+0.541166 ;8mm hss endmil
 T99  P99  Z+89.090000 ;probe
-T13  P13  D+2.000000 Z-10.841667 ;2mm hss endmill
+T13  P13  D+2.000000 Z-10.841700 ;2mm hss endmill
+T14  P14  D+4.000000 Z-4.474167 ;4mm 3flute dlc carbide
