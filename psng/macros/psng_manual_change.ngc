@@ -27,10 +27,10 @@ O100 endif
 ; Ensure we're in G90 / absolute mode
 G90
 
-; First go up & then move to tool sensor position
+; First go up //& then move to tool sensor position
 G53 G0 Z[#<_ini[CHANGE_POSITION]Z>]
-G53 G0 X[#<_ini[CHANGE_POSITION]X>] Y[#<_ini[CHANGE_POSITION]Y>]
-G53 G0 Z[#<_ini[CHANGE_POSITION]Z>]
+;G53 G0 X[#<_ini[CHANGE_POSITION]X>] Y[#<_ini[CHANGE_POSITION]Y>]
+;G53 G0 Z[#<_ini[CHANGE_POSITION]Z>]
 
 
 ; Cancel tool offset

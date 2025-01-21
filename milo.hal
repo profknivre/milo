@@ -27,6 +27,8 @@ addf [HMOT](CARD0).write         servo-thread
 setp [HMOT](CARD0).dpll.01.timer-us -50
 setp [HMOT](CARD0).stepgen.timer-number 1
 
+#loadusr -W hal_tasmota
+
 # external output signals
 
 # --- SPINDLE-ENABLE ---
