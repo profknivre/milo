@@ -1,23 +1,24 @@
-T1   P1   D+6.000000 ;5mm endmill
-T2   P2   D+5.000000 Z+9.985833 ;5mm drill
-T3   P3   D+6.000000 ;6mm ball end
-T4   P4   D+6.000000 ;6 mm bull nose
-T5   P5   D+10.000000 ;60 deg. v-bit
-T6   P6   D+12.332300 ;45 deg. chamfer
-T7   P7   D+76.200000 ;slitting saw
-T8   P8   D+6.000000 ;probe
-T9   P9   D+5.000000 ;5mm-thread-cutter
-T10  P10  D+20.000000 Z-5.621420 ;face mill 20
-T11  P11  D+10.000000 Z-5.002083 ;bap
-T12  P12  D+8.000000 ;8mm hss endmill
-T13  P13  D+2.000000 Z-12.359766 ;2mm endmill
-T14  P14  D+4.000000 Z-22.997667 ;4mm 3flute dlc carbide
-T15  P15  D+4.000000 ;4mm r2 ballend
-T16  P16  D+6.000000 Z-11.103667 ;6mm 90deg chamfer
-T17  P17  D+6.000000 Z-13.443800 ;6x12mm single flute carbide
-T18  P18  D+3.000000 Z-16.040750 ;3x12 single flute carbide
-T19  P19  D+2.500000 Z-15.002300 ;2.5mm drill
-T20  P20  D+3.000000 Z-12.469700 ;3mm drill
-T22  P22  D+11.000000 ;long bap 11mm
-T23  P23  D+4.000000 ;4mm 4f hss endmill
-T24  P24  D+4.000000 Z+7.846667 ;4mm drill
+T1   P1   Z-38.401700 ;5mm endmill
+T2   P2   Z+9.985830 ;5mm drill
+T3   P3   ;6mm ball end
+T4   P4   ;6 mm bull nose
+T5   P5   ;60 deg. v-bit
+T6   P6   ;45 deg. chamfer
+T7   P7   ;slitting saw
+T8   P8   ;probe
+T9   P9   ;5mm-thread-cutter
+T10  P10  Z-5.621420 ;face mill 20
+T11  P11  Z-5.002080 ;bap
+T12  P12  ;8mm hss endmill
+T13  P13  Z-12.359800 ;2mm endmill
+T14  P14  Z-22.997700 ;4mm 3flute dlc carbide
+T15  P15  ;4mm r2 ballend
+T16  P16  Z-11.103700 ;6mm 90deg chamfer
+T17  P17  Z-23.626700 ;6x12mm single flute carbide
+T18  P18  Z-24.623333 ;3x12 single flute carbide
+T19  P19  Z-15.002300 ;2.5mm drill
+T20  P20  Z-12.469700 ;3mm drill
+T22  P22  ;long bap 11mm
+T23  P23  ;4mm 4f hss endmill
+T24  P24  Z+3.236920 ;4mm drill
+T33  P33  Z-27.080000 ;1.5mm 3flute carbide
