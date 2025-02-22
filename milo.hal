@@ -4,7 +4,7 @@
 # overwritten when you run PNCconf again
 
 loadrt [KINS]KINEMATICS
-loadrt [EMCMOT]EMCMOT servo_period_nsec=[EMCMOT]SERVO_PERIOD num_joints=[KINS]JOINTS
+loadrt [EMCMOT]EMCMOT servo_period_nsec=[EMCMOT]SERVO_PERIOD num_joints=[KINS]JOINTS num_dio=6 num_aio=3
 loadrt hostmot2
 loadrt hm2_eth board_ip="10.10.10.10" config="num_encoders=1 num_pwmgens=1 num_stepgens=5 sserial_port_0=0xxxxxxx" 
 setp    [HMOT](CARD0).pwmgen.pwm_frequency 20000
@@ -321,10 +321,10 @@ net tool-number            <= iocontrol.0.tool-prep-number
 
 #  ---Use external manual tool change dialog---
 
-loadusr -W hal_manualtoolchange
-net tool-change-request    =>  hal_manualtoolchange.change
-net tool-change-confirmed  <=  hal_manualtoolchange.changed
-net tool-number            =>  hal_manualtoolchange.number
+#loadusr -W hal_manualtoolchange
+#net tool-change-request    =>  hal_manualtoolchange.change
+#net tool-change-confirmed  <=  hal_manualtoolchange.changed
+#net tool-number            =>  hal_manualtoolchange.number
 
 #  ---ignore tool prepare requests---
 net tool-prepare-loopback   iocontrol.0.tool-prepare      =>  iocontrol.0.tool-prepared
