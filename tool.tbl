@@ -1,26 +1,25 @@
-;Tool  Pocket Z Offset     Diameter     Remark
-T1     P1     Z+49.984983  D+0.000000   ; 5mm endmill
-T2     P2     Z+9.985830   D+0.000000   ; 5mm drill
-T3     P3     Z+0.000000   D+0.000000   ; 6mm ball end
-T4     P4     Z+0.000000   D+0.000000   ; 6 mm bull nose
-T5     P5     Z+0.000000   D+0.000000   ; 60 deg. v-bit
-T6     P6     Z+0.000000   D+0.000000   ; 45 deg. chamfer
-T7     P7     Z+0.000000   D+0.000000   ; slitting saw
-T8     P8     Z+0.000000   D+0.000000   ; probe
-T9     P9     Z+0.000000   D+0.000000   ; 5mm-thread-cutter
-T10    P10    Z-5.621420   D+0.000000   ; face mill 20
-T11    P11    Z-5.002080   D+0.000000   ; bap
-T12    P12    Z+0.000000   D+0.000000   ; 8mm hss endmill
-T13    P13    Z+49.993317  D+0.000000   ; 2mm endmill
-T14    P14    Z-22.997700  D+0.000000   ; 4mm 3flute dlc carbide
-T15    P15    Z+0.000000   D+0.000000   ; 4mm r2 ballend
-T16    P16    Z-11.103700  D+0.000000   ; 6mm 90deg chamfer
-T17    P17    Z+49.980817  D+0.000000   ; 6x12mm single flute carbide
-T18    P18    Z-24.623333  D+0.000000   ; 3x12 single flute carbide
-T19    P19    Z-15.002300  D+0.000000   ; 2.5mm drill
-T20    P20    Z-12.469700  D+0.000000   ; 3mm drill
-T22    P22    Z+0.000000   D+0.000000   ; long bap 11mm
-T23    P23    Z+0.000000   D+0.000000   ; 4mm 4f hss endmill
-T24    P24    Z+3.236920   D+0.000000   ; 4mm drill
-T33    P33    Z-27.080000  D+0.000000   ; 1.5mm 3flute carbide
-T99    P0     Z+49.979983  D+2.000000   ; probe
+T1   P1   Z+49.984983 ; 5mm endmill
+T2   P2   Z+9.985830 ; 5mm drill
+T3   P3   ; 6mm ball end
+T4   P4   ; 6 mm bull nose
+T5   P5   ; 60 deg. v-bit
+T6   P6   Z+21.054150 ; 45 deg. chamfer
+T7   P7   ; slitting saw
+T8   P8   Z+17.776650 ; probe
+T9   P9   ; 5mm-thread-cutter
+T10  P10  Z-5.621420 ; face mill 20
+T11  P11  Z-5.002080 ; bap
+T12  P12  ; 8mm hss endmill
+T13  P13  Z+49.993317 ; 2mm endmill
+T14  P14  Z-22.997700 ; 4mm 3flute dlc carbide
+T15  P15  ; 4mm r2 ballend
+T16  P16  Z-11.103700 ; 6mm 90deg chamfer
+T17  P17  Z+49.980817 ; 6x12mm single flute carbide
+T18  P18  Z-24.623333 ; 3x12 single flute carbide
+T19  P19  Z-15.002300 ; 2.5mm drill
+T20  P20  Z-12.469700 ; 3mm drill
+T22  P22  ; long bap 11mm
+T23  P23  ; 4mm 4f hss endmill
+T24  P24  Z+3.236920 ; 4mm drill
+T33  P33  Z-27.080000 ; 1.5mm 3flute carbide
+T99  P0   D+2.000000 Z+49.280817 ; probe

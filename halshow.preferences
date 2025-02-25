@@ -1,6 +1,6 @@
 # Halshow settings
 # This file is generated automatically.
-wm geometry . 758x467+1179+387
+wm geometry . 758x491+694+380
 placeFrames 0.38953488372093026
 set ::ratio 0.38953488372093026
 set ::old_w_leftf 160
@@ -16,6 +16,13 @@ set ::watchlist {
     pin+hm2_7i96s.0.gpio.000.in
     pin+hm2_7i96s.0.gpio.001.in
     pin+hm2_7i96s.0.gpio.002.in
+    pin+arduino.counter.0
+    pin+arduino.din.4
+    pin+arduino.din.5
+    pin+arduino.din.6
+    pin+arduino.din.7
+    pin+arduino.din.8
+    pin+arduino.din.9
 }
 set ::workmode watchhal
 set ::watchInterval 100
